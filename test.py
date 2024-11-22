@@ -375,4 +375,4 @@ if __name__ == "__main__":
                  tomorrow, tomorrow_weather, tomorrow_max, tomorrow_min, tomorrow_wind, daily_love, note_ch,
                  note_en, today_weather_str, today_str)
     # 这里系统暂停乱码 需要将pycharm设置成与cmd相同的GBK编码 在setting file encode中
-    os.system("pause")
+    # os.system("pause")
