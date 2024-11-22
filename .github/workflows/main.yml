@@ -1,0 +1,37 @@
+name: Weather Push
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # UTC时间12点（北京时间晚上8点）
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Create Config File
+        run: |
+          echo '${{ secrets.CONFIG_JSON }}' > config.json
+          
+      - name: Run weather push
+        run: |
+          python test.py
+        
+      - name: Upload log
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: run-log
+          path: ./*.log
