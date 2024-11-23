@@ -11,6 +11,8 @@ permissions:  # 添加权限设置
 jobs:
   push:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai  # 设置时区为北京时间
     steps:
       - uses: actions/checkout@v4
       
