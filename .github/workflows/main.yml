@@ -2,7 +2,7 @@ name: Weather Push
 
 on:
   schedule:
-    - cron: '0 23 * * *'  # UTC时间23点（北京时间早上7点）
+    - cron: '30 3 * * *'  # UTC时间23点（北京时间早上7点）
   workflow_dispatch:  # 支持手动触发
   
 permissions:  # 添加权限设置
