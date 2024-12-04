@@ -8,3 +8,6 @@
 
 ## 运行时间
 每天早上 07:00自动推送
+
+## 城市代码编号
+https://blog.csdn.net/u013634862/article/details/44886769
