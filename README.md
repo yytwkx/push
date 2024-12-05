@@ -13,7 +13,7 @@
 https://blog.csdn.net/u013634862/article/details/44886769
 
 ## 配置文件示例
-确保config文件与主程序位于同一路径
+确保config文件与主程序位于同一路径且正确配置必要参数
 ```json
 {
   "appId": "your_app_id",
