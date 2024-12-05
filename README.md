@@ -11,3 +11,15 @@
 
 ## 城市代码编号
 https://blog.csdn.net/u013634862/article/details/44886769
+
+## 配置文件示例
+
+```json
+{
+  "appId": "your_app_id",
+  "appsecret": "your_app_secret",
+  "userId": "user_open_id",
+  "templateId": "your_template_id",
+  "love_date": "2024-01-01",
+  "birthday": "2024-01-01"
+}
