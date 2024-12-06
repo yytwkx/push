@@ -1,0 +1,15 @@
+📆今天是：{{date.DATA}}
+不管哪一天，每天都是爱你的一天 💕
+小🐷现在位于：{{city.DATA}} 
+天气⛅：{{today_weather.DATA}}，{{today_weather_str.DATA}} 
+今天的最低温度为{{today_min.DATA}}℃，最高温度为{{today_max.DATA}}℃，风力{{today_wind.DATA}} 
+✨tips: {{today_str.DATA}}
+ 
+😘顺便给小宝播报一下{{tomorrow.DATA}}的天气⛅：{{tomorrow_weather.DATA}}，最低温度{{tomorrow_min.DATA}}℃，最高温度{{tomorrow_max.DATA}}℃，风力{{tomorrow_wind.DATA}} 
+
+💑今天是我们在一起的第{{love_day.DATA}}天
+🎂距离小🐷的生日还有{{birthday.DATA}}天
+💌每日一句情话：{{daily_love.DATA}} 
+🌈每日一句英语 ：{{note_en.DATA}} {{note_ch.DATA}}
+
+每天都要做一只元气满满的小🐷哦~
