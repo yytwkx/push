@@ -12,6 +12,9 @@
 ## 城市代码编号
 https://blog.csdn.net/u013634862/article/details/44886769
 
+## 微信公众平台网址
+https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
+
 ## 配置文件示例
 确保config文件与主程序位于同一路径且正确配置必要参数
 ```json
