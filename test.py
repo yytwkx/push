@@ -136,7 +136,7 @@ def get_daily_love():
  
  
 def get_ciba():
-    # 每日一句英语（来自爱词霸）
+    # 每日一句英语
     url = "http://open.iciba.com/dsapi/"
     r = get(url)
     note_en = r.json()["content"]
