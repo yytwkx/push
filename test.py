@@ -365,7 +365,7 @@ if __name__ == "__main__":
     else:
         today_str = random.choice(weather_center_str)
     # print(today_str)
-    # 获取每日情话
+    # 获取每日情话.
     daily_love = get_daily_love()
     # 获取每日一句英语
     note_ch, note_en = get_ciba()
