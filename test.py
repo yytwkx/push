@@ -31,7 +31,7 @@ def get_weather():
         
         soup = bs4.BeautifulSoup(response.text, 'html.parser')
         
-        # 存放日期
+        #存放日期
         list_day = []
         i = 0
         day_list = soup.find_all('h1')
