@@ -360,7 +360,7 @@ if __name__ == "__main__":
     weather_center_str = ['今日温度适宜 适合运动练瑜伽~(doge)', '今日温度适宜 适合出去happy~','今日温度舒适宜人 不如出去拍些美美的照片']
     if int(today_min_judge[0]) < 10:
         today_str = random.choice(weather_min_str)
-    elif int(today_max[0]) > 30:
+    elif int(today_max_judge[0]) > 30:
         today_str = random.choice(weather_max_str)
     else:
         today_str = random.choice(weather_center_str)
@@ -376,3 +376,4 @@ if __name__ == "__main__":
                  note_en, today_weather_str, today_str)
     # 这里系统暂停乱码 需要将pycharm设置成与cmd相同的GBK编码 在setting file encode中
     # os.system("pause")
+
