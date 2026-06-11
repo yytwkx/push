@@ -7,8 +7,7 @@ import random
 import sys
 import bs4
 import requests
- 
- 
+  
 def get_weather():
     city_name = '仁寿'
     
